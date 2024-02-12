@@ -1,0 +1,42 @@
+.hover__glow:hover {
+  -webkit-box-shadow: 0px 0px 87px 0px rgba(49, 131, 255, 0.53);
+  -moz-box-shadow: 0px 0px 87px 0px rgba(49, 131, 255, 0.53);
+  box-shadow: 0px 0px 87px 0px rgba(49, 131, 255, 0.53);
+}
+.hover__glow-sm:hover {
+  -webkit-box-shadow: 0px 0px 27px 0px rgba(49, 131, 255, 0.32);
+  -moz-box-shadow: 0px 0px 27px 0px rgba(49, 131, 255, 0.32);
+  box-shadow: 0px 0px 27px 0px rgba(49, 131, 255, 0.32);
+}
+.hover__glow-white:hover {
+  -webkit-filter: drop-shadow(0px 0px 20px rgba(255, 255, 255, 0.4));
+  filter: drop-shadow(0px 0px 20px rgba(255, 255, 255, 0.4));
+}
+.hover__glow-png:hover {
+  -webkit-filter: drop-shadow(0px 0px 40px rgba(49, 131, 255, 1));
+  filter: drop-shadow(0px 0px 40px rgba(49, 131, 255, 1));
+}
+.hover__glow-png-2:hover {
+  -webkit-filter: drop-shadow(0px 0px 40px rgba(49, 131, 255, 0.2));
+  filter: drop-shadow(0px 0px 40px rgba(49, 131, 255, 0.2));
+}
+.hover__glow-png-4:hover {
+  -webkit-filter: drop-shadow(0px 0px 40px rgba(49, 131, 255, 0.4));
+  filter: drop-shadow(0px 0px 40px rgba(49, 131, 255, 0.4));
+}
+.hover__glow-png-6:hover {
+  -webkit-filter: drop-shadow(0px 0px 40px rgba(49, 131, 255, 0.6));
+  filter: drop-shadow(0px 0px 40px rgba(49, 131, 255, 0.6));
+}
+.hover__glow-png-8:hover {
+  -webkit-filter: drop-shadow(0px 0px 40px rgba(49, 131, 255, 0.8));
+  filter: drop-shadow(0px 0px 40px rgba(49, 131, 255, 0.8));
+}
+.hover__glow-sa:hover {
+  -webkit-filter: drop-shadow(0px 0px 20px rgba(114, 175, 0, 0.5));
+  filter: drop-shadow(0px 0px 20px rgba(114, 175, 0, 0.5));
+}
+.hover__glow-us:hover {
+  -webkit-filter: drop-shadow(0px 0px 20px rgba(255, 75, 84, 0.5));
+  filter: drop-shadow(0px 0px 20px rgba(255, 75, 84, 0.5));
+}

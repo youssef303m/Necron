@@ -1,0 +1,15 @@
+.animation__hero-glow {
+  animation-name: animate-pulse-hero;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes animate-pulse-hero {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.3;
+  }
+}

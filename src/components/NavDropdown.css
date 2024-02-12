@@ -1,0 +1,29 @@
+.nav__dropdown_div:has(+ div div a.nav__active) span {
+  font-weight: bold;
+  color: white;
+  position: relative;
+}
+.nav__dropdown_div span::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color: #3185ff;
+  bottom: -2px;
+  left: 0;
+}
+.nav__dropdown_div:has(+ div div a.nav__active) span::before {
+  width: 100%;
+}
+
+/* 
+                className={({ isActive }) =>
+                  `${
+                    isActive
+                      ? `font-[700] before:w-1/2 after:w-1/2`
+                      : `text-paragraph`
+                  } 
+                  relative duration-300
+                  before:content-[""] before:absolute before:w-0 before:h-[3px] before:bg-primary before:bottom-0 before:duration-300 before:right-1/2
+                  after:content-[""] after:absolute after:w-0 after:h-[3px] after:bg-primary after:bottom-0 after:duration-300 after:left-1/2
+*/

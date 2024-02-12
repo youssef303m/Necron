@@ -1,0 +1,11 @@
+export { default as Landing } from "./Landing";
+export { default as VPS } from "./VPS";
+export { default as Dedicated } from "./Dedicated";
+export { default as Web } from "./Web";
+export { default as Discord } from "./Discord";
+export { default as Minecraft } from "./Minecraft";
+export { default as Contact } from "./Contact";
+export { default as Ping } from "./Ping";
+export { default as Privacy } from "./Privacy";
+export { default as Terms } from "./Terms";
+export { default as Error404 } from "./Error404";

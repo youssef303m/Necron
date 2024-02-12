@@ -1,0 +1,19 @@
+.glow__png-wide {
+  -webkit-filter: drop-shadow(0px 0px 50px #3185ff6f);
+  filter: drop-shadow(0px 0px 50px #3185ff6f);
+}
+.glow {
+  box-shadow: 0px 0px 20px rgba(49, 133, 255, 1);
+}
+.glow-2 {
+  box-shadow: 0px 0px 20px rgba(49, 133, 255, 0.2);
+}
+.glow-4 {
+  box-shadow: 0px 0px 20px rgba(49, 133, 255, 0.4);
+}
+.glow-6 {
+  box-shadow: 0px 0px 20px rgba(49, 133, 255, 0.6);
+}
+.glow-8 {
+  box-shadow: 0px 0px 20px rgba(49, 133, 255, 0.8);
+}
